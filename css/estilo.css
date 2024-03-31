@@ -1,0 +1,241 @@
+body{
+    background: #000;
+    color: white;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'h h h h h h'
+        'm m m m m m'
+        'vg vg vg vg retro retro'
+        'hr hr hr hr hr hr'
+        'r r r r r r'
+        ;
+    margin: auto;
+    width: 1800px;
+
+}
+.border {
+    border: 1px solid white;
+}
+.border-image img{
+    width: 100%;
+    height: 100%;
+}
+.img-cabecalho {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    padding: 30px 30px;
+}
+
+.header {
+    grid-area: h;
+    background-color: #cecece;
+    position: relative;
+    background-image: url(../img/mace3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000;
+}
+.menu{
+    grid-area: m;
+    text-align: center;
+    margin:20px 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size:200%;
+    padding: 30px;
+
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu li{
+background: purple;
+}
+.border {
+    border: 1px solid white;
+    
+}
+
+figure>div {
+    height: 130px;
+    width: 130px;
+
+}
+
+.border-image >figcaption{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+figure {
+    display: inline-block;
+
+    
+}
+.Galeria{
+    padding-top: 150px;
+}
+.border-image {
+    border: 4px solid white;
+}
+
+figure {
+    display: inline-block;
+
+ 
+}
+.item-almaescura img{
+    width: 200px;
+    height: 200px;
+}
+
+.video_gameplay {
+    grid-area: vg;
+    margin: 10px 10px 0px 0px;
+    padding: 0px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.game-resolucao{
+    height: 300px;
+    max-width: 100%;
+}
+.img-retro {
+    grid-area: retro;
+    margin-top: 10px;
+    padding: 0px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.vgame-user{
+    background-color: white;
+    
+}
+form{
+    margin-top: 160px;
+    padding: 20px;
+}
+.email{
+    background: purple;
+    margin: 10px;
+}
+.senha{
+    background: purple;
+    margin:10px;
+}
+.input{
+    margin-bottom: 20px;
+    
+}
+.botaologin_ou--cadastro{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.botaologin_ou--cadastro button[type='button'],.botaologin_ou--cadastro input[type='submit']{
+    background-color: purple;
+    border: none;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.h1{
+    color: black;
+}.checkbox--newsletter input[checkbox], h4{
+    display: inline-block;
+}
+.userheader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left:45%;
+    top: 10%;
+    margin-bottom: 30px;
+}
+.userheader > img{
+    width: 80px;
+    text-align: center;
+}
+.historia{
+    margin-top: 30px;
+    grid-area: hr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+figcaption{
+    text-align: center;
+}
+.botao_login-detalhe {
+display: flex;
+position:absolute;
+bottom: 20%;
+}
+
+.footer_empresario address{
+    color:white;
+}
+.rodape address{
+    color: white;
+}
+.rodape figure > img{
+    width: 150px;
+    border: 6px solid rgb(33, 86, 185);
+    border-radius: 35%;
+    
+}
+.rodape figure{
+    display: flex;
+    align-items: center;
+}
+.rodape{
+    grid-area: r;
+    margin-top: 30px;
+    background-color: purple;
+    text-align: center;
+    position:relative;
+}
+.footer_empresario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.resolucao-img1{
+    width: 150px;
+    height: 100px;
+}
+.resolucao-img2{
+    width: 150px;
+    height: 100px;
+}
+.rede-sociais{
+    position:absolute;
+    right: 30px;
+    top:10px;
+}
+.resolucao-img3{
+    width:150px;
+    height: 100px;
+}
+.rede-sociais img{
+    height: 30px;
+    width:25px;
+}

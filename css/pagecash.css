@@ -1,0 +1,215 @@
+body{
+    background: #000;
+    color: white;
+    
+}
+p{
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'h h h h h h'
+        'm m m m m m'
+        'c c c c c c'  
+        'di1 di1 di2 di2 di3 di3'     
+        'r r r r r r' 
+    ;
+    margin: auto;
+    width: 1800px;
+
+}
+.border-image img{
+    width: 100%;
+    height: 100%;
+}
+.img-cabecalho {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    padding: 30px 30px;
+}
+
+.header {
+    grid-area: h;
+    background-color: #cecece;
+    position: relative;
+    background-image: url(../img/mace3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000;
+}
+.menu{
+    grid-area: m;
+    text-align: center;
+    margin:20px 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size:200%;
+    padding: 30px;
+
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu li{
+background: purple;
+}
+.border {
+    border: 1px solid white;
+    
+}
+
+figure>div {
+    height: 130px;
+    width: 130px;
+
+}
+
+.border-image >figcaption{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+figure {
+    display: inline-block;
+
+    
+}
+.Galeria{
+    padding-top: 150px;
+}
+.items-pago{
+    grid-area: c;
+    margin: auto;
+}
+.img_cash1{
+    width: 160px;
+    height: 150px;
+}
+.img_cash2{
+    width: 160px;
+    height: 150px;
+}
+.img_cash3{
+    width: 160px;
+    height: 150px;
+}
+figure figcaption{
+    color: white;
+    text-align: center;
+}
+figure > input[type=number]{
+    width: 110px;
+    background: purple;
+    color: white;
+    text-align: center;
+}
+
+figure > input[type=button]{
+    background: black;
+    color: white;
+}
+.descricao-item1{
+    grid-area: di1;
+    text-align: center;
+}
+.descricao-item1 figure > p{
+    color: white;
+}
+.descricao-item1 figure > img{
+    width: 400px;
+}
+.descricao-item2{
+    grid-area: di2;
+    text-align: center;
+}
+
+.descricao-item2 figure > p{
+    color: white
+    ;
+}
+.descricao-item2 figure > img{
+    width: 400px;
+    height: 280px;
+}
+.descricao-item3{
+    grid-area:di3;
+    text-align: center;
+}
+.descricao-item3 figure > p{
+    color: white;
+}
+.descricao-item3 figure > img{
+    width: 400px;
+    height:280px;
+}
+.footer_empresario address{
+    color:white;
+}
+.rodape address{
+    color: white;
+}
+.rodape figure > img{
+    width: 150px;
+    border: 6px solid rgb(33, 86, 185);
+    border-radius: 35%;
+    
+}
+.rodape figure{
+    display: flex;
+    align-items: center;
+}
+.rodape{
+    grid-area: r;
+    margin-top: 30px;
+    background-color: purple;
+    text-align: center;
+    position:relative;
+}
+.footer_empresario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.resolucao-img1{
+    width: 150px;
+    height: 100px;
+}
+.resolucao-img2{
+    width: 150px;
+    height: 100px;
+}
+.rede-sociais{
+    position:absolute;
+    right: 30px;
+    top:10px;
+}
+.resolucao-img3{
+    width:150px;
+    height: 100px;
+}
+.rede-sociais img{
+    height: 30px;
+    width:25px;
+}
+.items-pago > .botao_compra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botao-carrinho{
+display: flex;
+align-items: center;
+background-color: rgb(51, 247, 51);
+border: none;
+height:40px;
+border-radius: 40px;
+}

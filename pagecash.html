@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamentos-items</title>
+    <link rel="stylesheet" href="./css/pagecash.css">
+</head>
+<body>
+    <div class="grid-container">
+        <div class="header">
+            <img src="" alt="image" srcset="" class="border img-cabecalho">
+          /<!--  <nav class="nav_header">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Entreterimento</a></li>
+                    <li><a href="#">Cash</a></li>
+                    <li><a href="#">Clan</a></li>
+                    <li><a href="#">Serviço</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>-->
+            <div class="Galeria">
+
+                <figure>
+                    <h2>Galeria</h2>
+                    <div class="border-image">
+                        <img src="img/headergaleria/galeria2.jpg" alt="image">
+                    </div>
+                    <figcaption>Takeshi</figcaption>
+                </figure>
+                <figure>
+                    <div class="border-image">
+                        <img src="img/headergaleria/galeria1.jpg" alt="image">
+                    </div>
+                    <figcaption>Lord Deimos</figcaption>
+                </figure>
+                <figure>
+                    <div class="border-image">
+                        <img src="img/headergaleria/galeria3.jpeg" alt="image">
+                    </div>
+                    <figcaption>Asmodeus vs Asmodeus</figcaption>
+                </figure>
+                <figure>
+                    <div class="border-image">
+                        <img src="img/headergaleria/galeria4.jpg" alt="image">
+                    </div>
+                    <figcaption>Namira</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="menu">
+            <nav class="nav_header">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                <!---    <li><a href="#">Entreterimento</a></li>-->
+                    <li><a href="pagecash.html">Cash</a></li>
+                    <li><a href="download.html">Download</a></li>
+                    <!--<li><a href="#">Serviço</a></li>-->
+                   <!-- <li><a href="#">Contato</a></li>-->
+                </ul>
+            </nav>
+        </div>
+
+        <div class="items-pago">
+            <figure class="item">
+                <img src="./img/itemcash/bencaodoanjo.jpeg" class="img_cash1" alt="">
+            <figcaption>Benção do Anjo</figcaption>
+            <input type="button" id="menos" onclick="less()" value="-"><input type="number" name="numero" id="num"><input type="button" value="+" id="mais" onclick="more()">
+            </figure>
+            <figure class="item">
+                <img src="./img/itemcash/pocaodecura.jpg" class="img_cash2" alt="">
+                <figcaption> poção de cura e força</figcaption>
+                <input type="button" id="menos2" onclick="less2()" value="-"><input type="number" name="numero2" id="num2"><input type="button" value="+" id="mais2" onclick="more2()">
+            </figure>
+            <figure class="item">
+                <img src="img/itemcash/pocaodojardim.jpg" class="img_cash3" alt="">
+                <figcaption> poçao do jardim</figcaption>
+                <input type="button" id="menos3" onclick="less3()" value="-"><input type="number" name="numero3" id="num3"><input type="button" value="+" id="mais3" onclick="more3()">
+            </figure>
+            <div class="botao_compra">
+            <button class="botao-carrinho"><i><img src="./img/carrinho-de-compras.png" alt=""></i> Compra AGORA</button>
+        </div>
+            <p>So esses item pode comprar no site</p>
+        </div>
+            <div class="descricao-item1">
+                <figure>
+                    <img src="./img/itemcash/bencaodoanjo.jpeg" alt="item1" srcset="">
+                    <figcaption>Benção do Anjo</figcaption>
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis nulla quam dolore id eius odit voluptatibus modi unde harum ullam officiis, laudantium ipsa dicta eligendi voluptate ipsam? Perferendis, molestiae aperiam!
+                    Quae veniam dignissimos quibusdam rerum recusandae eaque voluptatem adipisci assumenda ipsa. Sunt nemo iure doloremque aperiam. Unde debitis dolore dolorum, minima vel, nobis delectus ipsam, et iste quas rem tenetur?
+                    Modi, voluptas animi quasi velit in totam ipsa quia qui esse vero tempora quidem omnis distinctio non blanditiis impedit provident doloremque perferendis maxime error iusto ut, incidunt eos? Iste, cum?
+                    Maxime ipsum repellendus vero, consequuntur delectus harum debitis nihil voluptatum dolore saepe ea commodi molestiae ut cumque quae eaque voluptas vitae ex dicta optio natus excepturi dolores blanditiis? Enim, minus?
+                    A fugit veniam dicta culpa impedit eligendi assumenda officiis quisquam accusantium! Nam delectus officia totam vero earum corporis molestias voluptas quasi. Quod placeat voluptas suscipit harum vero natus hic eaque!
+                    Dignissimos nesciunt quod, officia amet deleniti distinctio itaque quibusdam, molestias esse pariatur unde ex quas in, eius quos. Est officia similique vel delectus asperiores ab quae veniam quisquam ullam commodi.</p>
+                </figure>
+            </div>
+            <div class="descricao-item2">
+                <figure>
+                    <img src="./img/itemcash/pocaodecura.jpg" alt="item2" srcset="">
+                    <figcaption>Poçãao de cura e força</figcaption>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias aperiam eveniet tempore similique, fuga sapiente dolor nobis! Quae dolores quibusdam odit, repudiandae, voluptatum voluptates corrupti asperiores officiis facilis sed praesentium.
+                    Blanditiis deleniti laudantium alias nihil ad ex quaerat ea veniam? Ipsum harum rerum aspernatur delectus expedita fugit, odit iure tenetur molestiae quaerat quae magni sequi consequatur obcaecati veritatis? Tempora, quidem.
+                    Blanditiis molestias possimus repellendus, aspernatur explicabo mollitia inventore quos ratione fugiat repudiandae aliquid quasi beatae unde saepe? Vitae praesentium maiores ut! Obcaecati illo placeat harum quis natus modi ea doloremque?
+                    Quasi, quo dignissimos quod cum magnam modi numquam molestiae nulla sunt voluptates rerum labore quia eveniet! Modi maiores dignissimos voluptatem! Unde asperiores earum eligendi nisi id quis quasi tempore natus?
+                    Odit corrupti magni voluptas cum quasi dolorem, optio ea, recusandae omnis, dolore reiciendis ab? Eum, impedit, provident aliquam ab quas laborum cum quos eius eveniet numquam voluptatibus harum quibusdam animi.
+                    Doloribus corrupti nemo porro inventore numquam sint tempora ad quod facere ipsa magnam modi quos atque eligendi, minima temporibus, quas quae repudiandae odit beatae quasi provident. Odio recusandae voluptate rem.</p>
+                </figure>
+            </div>
+            <div class="descricao-item3">
+                <figure>
+                    <img src="./img/itemcash/pocaodojardim.jpg" alt="item3" srcset="">
+                    <figcaption>poção do jardim</figcaption>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores incidunt voluptas, dignissimos quae rem reiciendis architecto, illo nam obcaecati voluptatibus laborum laudantium! Rem ipsam sed, vel cumque provident blanditiis.
+                Odio distinctio ab nostrum, doloribus excepturi magni vitae mollitia nesciunt, debitis soluta a hic recusandae reprehenderit. Aspernatur mollitia ipsa rerum ratione. Sint, aperiam libero. Quo, libero optio! Eveniet, sint officiis?
+                Molestiae perspiciatis blanditiis doloribus, esse soluta neque officiis, molestias tempore voluptatibus, eveniet veritatis dicta id aut sed error nam? Labore non dicta, quisquam ex beatae magni fuga tempora! Voluptas, omnis.
+                Incidunt provident harum, ex ullam, rerum totam, laborum fuga eveniet labore cumque autem perferendis ea? Minus expedita, officia, nulla fugit optio saepe dolores fugiat architecto, impedit numquam alias odit illo?
+                Saepe eum exercitationem dolorem totam incidunt ea eius amet id laboriosam perferendis culpa voluptatem quas sunt a eligendi, voluptates repellat quia nemo accusantium? Omnis ducimus numquam dolorem aperiam consectetur quam?
+                Cum aliquam eligendi sed laudantium obcaecati natus eaque molestias cupiditate deleniti minus, adipisci quisquam nostrum doloremque! Cupiditate, accusantium voluptatibus corporis veniam error, est dicta, suscipit itaque perferendis culpa possimus temporibus.</p>
+                </figure>
+                
+            </div>
+            <footer class="rodape">
+                <address>
+                    Rua Domingos Agostin, 91 - Tatuapé - SP/São Paulo - 3306010
+                </address>
+                <address>
+                    <figure class="footer_empresario">
+                        <img src="./img/contatos.jpeg" alt="">
+                        <figcaption>Felipe Iuki freitas</figcaption>
+                    </figure>
+                    email:ninteandroidcomputer@outlook.com
+                    <br>
+                    tel: 55 + (11)977812016
+                
+                </address> 
+                <div class="rede-sociais">
+                    <img src="./img/footerimg/redesocial/play.png" alt="">
+                    <img src="./img/footerimg/redesocial/facebook (1).png" alt="">
+                    <img src="./img/footerimg/redesocial/social.png" alt="">
+                </div>
+                <div class="colaboladores">
+                <img src="./img/footerimg/colaborador.jpeg" class="resolucao-img1" alt="">
+                <img src="./img/footerimg/colaborador2.jpg" class="resolucao-img2" alt="">
+                <img src="./img/footerimg/colaborador3.jpg" class="resolucao-img3" alt="">
+            </div>
+            </footer>
+        </div>
+    
+    </div>
+    <script src="./javascript/botao.js"></script>
+</body>
+</html>
